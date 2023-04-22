@@ -1,2 +1,41 @@
 /* Styles Loading...*/
 
+/* All imports */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* universal styles */
+* {
+    box-sizing: border-box;
+}
+
+/* variables */
+:root {
+    --veryDarkBlue: hsl(243, 87%, 12%);
+    --desaturatedBlue: hsl(238, 22%, 44%);
+    --brightBlue: hsl(224, 93%, 58%);
+    --lightBlue: hsl(228, 45%, 44%);
+    --moderateCyan: hsl(170, 45%, 43%);
+    --lightGrayishBlue: hsl(240, 75%, 98%);
+    --lightGray: hsl(0, 0%, 75%);
+}
+
+/* ---font-family to use--- */
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; 
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* footer section */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: var(--lightBlue);
+}
