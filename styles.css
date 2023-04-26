@@ -101,6 +101,7 @@ body {
 .stay-productive {
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
     background-image: url(./images/bg-curve-desktop.svg);
     align-items: center;
     font-weight: 600;
@@ -137,16 +138,53 @@ body {
 
 .stay-productive-right img {
     width: 600px;
-    height: 300px;
+    height: 350px;
 }
 
 .stay-productive .card {
-    width: 100px;
+    margin-top: 30px;
+    background-color: #fff;
+    width: 260px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 10px;
+    box-shadow: 3px 3px 50px var(--lightGray);
+}
+
+.stay-productive .quotes-container {
+    width: 20px;
+    height: 20px;
+}
+
+.stay-productive p {
+    width: 100%;
+}
+
+.stay-productive .bio {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.stay-productive .bio .avatar-container {
+    width: 50px;
     height: 50px;
+    margin-right: 10px;
+}
+
+.stay-productive .avatar-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stay-productive .details .name {
+    font-weight: 700;
 }
 
 /* footer section */
 .attribution { 
+    margin-top: 100px;
     font-size: 11px; 
     text-align: center;
 }
