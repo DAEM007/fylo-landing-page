@@ -29,8 +29,121 @@ font-family: 'Raleway', sans-serif;
 
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: var(--lightGrayishBlue);
+    color: var(--veryDarkBlue);
 }
 
+/* Nav styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 30px;
+}
+
+.nav-container .logo img {
+    width: 150px;
+    height: 40px;
+}
+
+.nav-container .nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-right: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* Get-started styles */
+.get-started-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+.get-started-left p {
+    width: 550px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.get-started-left input {
+    width: 250px;
+    padding: 8px;
+}
+
+.get-started-left button {
+    background-color: var(--brightBlue);
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.get-started-right img {
+    width: 700px;
+    height: 500px;
+}
+
+/* stay-productive */
+.stay-productive {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/bg-curve-desktop.svg);
+    align-items: center;
+    font-weight: 600;
+    margin-top: 100px;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.stay-productive-left p {
+    width: 550px;
+}
+
+.stay-productive .para-1 {
+    margin-top: 30px;
+}
+
+.stay-productive .para-2 {
+    margin: 10px auto;
+}
+
+.stay-productive .underline {
+    display: flex;
+    width: 172px;
+    align-items: center;
+    border-bottom: 2px solid var(--moderateCyan);
+    cursor: pointer;
+}
+
+.stay-productive a {
+    text-decoration: none;
+    color: var(--moderateCyan);
+    margin-right: 5px;
+}
+
+.stay-productive-right img {
+    width: 600px;
+    height: 300px;
+}
+
+.stay-productive .card {
+    width: 100px;
+    height: 50px;
+}
 
 /* footer section */
 .attribution { 
