@@ -97,20 +97,24 @@ body {
     height: 500px;
 }
 
-/* stay-productive */
+/* stay-productive styles */
 .stay-productive {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background-image: url(./images/bg-curve-desktop.svg);
     align-items: center;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 100px;
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 150px;
 }
 
-.stay-productive-left p {
+.stay-productive-left h1 {
+    font-size: 40px;
+}
+
+.stay-productive-left .para-1,
+.stay-productive-left .para-2 {
     width: 550px;
 }
 
@@ -119,12 +123,14 @@ body {
 }
 
 .stay-productive .para-2 {
-    margin: 10px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 520px;
 }
 
 .stay-productive .underline {
     display: flex;
-    width: 172px;
+    width: 180px;
     align-items: center;
     border-bottom: 2px solid var(--moderateCyan);
     cursor: pointer;
@@ -137,7 +143,7 @@ body {
 }
 
 .stay-productive-right img {
-    width: 600px;
+    width: 500px;
     height: 350px;
 }
 
@@ -180,6 +186,54 @@ body {
 
 .stay-productive .details .name {
     font-weight: 700;
+}
+
+/* Access section styles*/
+.access-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--desaturatedBlue);
+    color: #fff;
+    align-items: center;
+    margin-top: 100px;
+    padding: 70px 30px;
+}
+
+.access-section .access-left p {
+    margin-top: 20px;
+    width: 500px;
+}
+
+.access-section .access-right {
+    margin-right: 70px;
+}
+
+.access-section .access-right input {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.access-section .access-right button {
+    background-color: var(--brightBlue);
+    color: #fff;
+    margin-top: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* contact section styles */
+.contact-section {
+    background-color: var(--veryDarkBlue);
+    padding: 70px 30px;
+}
+
+.contact-section .footer-logo {
+    /* todo: solve color issues here */
+    filter: invert(100%) sepia(100%) saturate(100%);
 }
 
 /* footer section */
