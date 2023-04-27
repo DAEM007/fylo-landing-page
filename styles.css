@@ -32,7 +32,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--lightGrayishBlue);
     color: var(--veryDarkBlue);
-    width: max-content;
 }
 
 body::-webkit-scrollbar {
@@ -319,9 +318,9 @@ body::-webkit-scrollbar {
 
 /* Responsive styles */
 @media (min-width: 320px) and (max-width: 480px) {
-    /* .nav-container {
-        
-    } */
+    body {
+        width: max-content;
+    }
 
     .get-started-container,
     .stay-productive {
