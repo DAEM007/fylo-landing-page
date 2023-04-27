@@ -32,6 +32,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--lightGrayishBlue);
     color: var(--veryDarkBlue);
+    width: max-content;
 }
 
 body::-webkit-scrollbar {
@@ -317,5 +318,72 @@ body::-webkit-scrollbar {
 
 
 /* Responsive styles */
+@media (min-width: 320px) and (max-width: 480px) {
+    /* .nav-container {
+        
+    } */
 
+    .get-started-container,
+    .stay-productive {
+        flex-direction: column-reverse;
+    }
+
+    .get-started-left input,
+    .get-started-left button {
+        display: block;
+    }
+
+    .get-started-left button {
+        width: 250px;
+    }
+
+    .get-started-left input,
+    .get-started-left button {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .stay-productive .underline,
+    .stay-productive .card {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .access-section {
+        flex-direction: column;
+    }
+
+    .access-section .access-right {
+        margin-top: 20px;
+    }
+
+    .access-section .access-right div input {
+        width: 200px;
+    }
+
+    .contact-section .links-container,
+    .contact-section .links {
+        flex-direction: column;
+    }
+
+    .contact-section .links {
+        justify-content: space-between;
+    }
+
+    .contact-section .links-1,
+    .contact-section .links-2,
+    .contact-section .social-links {
+        margin-top: 20px;
+        margin-right: auto;
+    }
+
+    .contact-section .links-2 {
+        margin-left: 0;
+    }
+
+    .contact-section .social-links {
+        margin-left: 270px;
+    }
+
+}
 
